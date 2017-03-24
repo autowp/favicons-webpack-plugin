@@ -44,13 +44,15 @@
     "mkdirp": "^0.5.1",
     "rimraf": "^2.5.2",
     "semistandard": "^9.1.0",
-    "webpack": "^1.13.0",
+    "webpack": "^2.2.1",
     "webpack-dev-middleware": "^1.6.1"
   },
   "dependencies": {
     "favicons": "^4.8.3",
     "loader-utils": "^0.2.14",
-    "lodash": "^4.11.1",
-    "webpack": "^1.13.0"
+    "lodash": "^4.11.1"
+  },
+  "peerDependencies": {
+    "webpack": "1 || ^2.2.1"
   }
 }
